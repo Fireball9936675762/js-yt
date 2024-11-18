@@ -53,3 +53,4 @@ console.log(Object.values(TinderUser));
 console.log(Object.entries(TinderUser));
 
 console.log(TinderUser.hasOwnProperty('email'));          //importent to check if key is available or not
+ 
