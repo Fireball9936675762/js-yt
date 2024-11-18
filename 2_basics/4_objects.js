@@ -54,3 +54,18 @@ console.log(Object.entries(TinderUser));
 
 console.log(TinderUser.hasOwnProperty('email'));          //importent to check if key is available or not
  
+
+//object destructuring
+
+const course={
+    name: "JS/YT",
+    price:"free",
+    courseInstructure:"hitesh"
+}
+// console.log(course.courseInstructure);
+
+const {courseInstructure}= course
+console.log(courseInstructure);
+
+const {courseInstructure: instructor}= course
+console.log(instructor);
