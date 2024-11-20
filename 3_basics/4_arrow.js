@@ -51,12 +51,30 @@ const coffee=()=>{
     console.log(this);
     
 }
-// coffee()
+coffee()
+
+const add=(num1, num2)=> (num1+num2);       //implicite expression
+// console.log(add(4,7))
 
 
-const add =(num1,num2)=> (num1+num2)                //implicite return
-console.log(add(4,5));
+// immediatly invoked function expresssion: function needs to  execute just after writing it. Also to protect it from global scope pollution
 
-const print =()=> ({username:"Gaurav"} )               //implicite return
-console.log(print());
+(function chai(){
+    console.log("myChai");
+    
+})();
+
+//";" is compulsory bcz javascript doesnt know where to end the context
+
+//IIFE Using arrow fn
+
+((myName)=>{
+    console.log(`my name is ${myName}`);
+    
+})("Gaurav")
+
+
+
+
+
 
