@@ -74,7 +74,33 @@ const add=(num1, num2)=> (num1+num2);       //implicite expression
 })("Gaurav")
 
 
+//*****************************DOUBT************************************ */
 
+//CHAT-GPT SEARCH 
 
+// case 1. 
+// let JsUser={
+//     full: "Gauravji",
 
+// }
+// JsUser.greetingtwo=function(){
+//     console.log(hello ${this.full} ); 
+//  }
+// console.log(JsUser.greetingtwo());
+// case 2.
+// function num(){
+//     let abc="Gaurav"
+//     console.log(this.abc);
+    
+// }
+// num()
 
+// in case 1, this function is returning value  but in case of case 2, this function retuns "undefined"
+// why?
+
+// Summary of how this works in different contexts:
+
+// Global context: this refers to the global object (window in browsers, global in Node.js).
+// Inside an object method: this refers to the object the method is a part of.
+// In strict mode: If a normal function is called in the global scope or without an object, this is undefined.
+// Arrow functions: this is lexically bound and refers to the context in which the function is defined, not where it's called
