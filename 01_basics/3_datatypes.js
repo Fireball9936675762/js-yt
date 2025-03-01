@@ -21,7 +21,7 @@ let obj2=obj1
 
 obj2.FGF="Ak"
 
-console.log(obj1.name);
+console.log(obj1.FGF);
 console.log(obj2.name);
 
 
