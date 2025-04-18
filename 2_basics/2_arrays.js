@@ -29,3 +29,10 @@ console.log(array4.flat(Infinity));
 
 
 
+// Modify original array: push(), pop(), shift(), unshift(), splice(), sort(), reverse(), fill()
+
+// Return new array: map(), filter(), slice(), concat(), flat(), flatMap()
+
+// Searching: find(), findIndex(), includes(), indexOf(), lastIndexOf()
+
+// Iteration: forEach(), map(), filter(), reduce(), some(), every()
